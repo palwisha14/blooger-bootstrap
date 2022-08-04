@@ -1,0 +1,217 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+#lis{
+    font-size: 1.2rem;
+    height: 100%;
+    width: 100%;
+}
+#lis:hover{
+    background-color: #104f55;
+    cursor: pointer;
+}
+#lis:hover#lis>a{
+    color: white;
+}
+.fa-brands:hover{
+    opacity: .5;
+    cursor: pointer;
+}
+.header{
+    height: 110vh;
+    width: 100%;
+    background-image: url(./img/Background-image.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn1{
+    background-color: skyblue!important;
+    border-radius: 50px!important;
+    padding: .8rem 3rem !important;
+}
+.btn1:hover{
+    background: none!important;
+    color: #fff!important;
+    border: 2px solid #fff;
+}
+.btn2:hover{
+    color: rgb(46, 46, 224)!important;
+}
+.main{
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+    background-size: 65%;
+    background-image: url(./img/Abract01.png);
+    position: relative;
+}
+.main1_img1{
+    height: 60vh;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+.img1{
+    background-image: url(./img/blog1.png);
+    background-size: 100% 100%;
+    height: 100% ;
+    width: 100%;
+    transition-duration: .7s;
+
+}
+.main1_img1:hover .img1{
+    transform: scale(1.3);
+}
+.btn2{
+    background-color: skyblue!important;
+    padding: .3rem 3rem !important;
+}
+.img2{
+    background-image: url(./img/blog2.png);
+    background-size: 100% 100%;
+    height: 100% ;
+    width: 100%;
+    transition-duration: .7s;
+
+}
+.main1_img1:hover .img2{
+    transform: scale(1.3);
+}
+.img3{
+    background-image: url(./img/blog3.png);
+    background-size: 100% 100%;
+    height: 100% ;
+    width: 100%;
+    transition-duration: .7s;
+
+}
+.main1_img1:hover .img3{
+    transform: scale(1.3);
+}
+.img4{
+    background-image: url(./img/blog4.png);
+    background-size: 100% 100%;
+    height: 100% ;
+    width: 100%;
+    transition-duration: .7s;
+
+}
+.main1_img1:hover .img4{
+    transform: scale(1.3);
+}
+
+.cat_div{
+    width: 250px;
+    border-radius: 50px;
+    background-color: skyblue;
+    display: flex;
+    justify-content:space-between;
+    align-items: center!important;
+    height: 5vh;
+    padding-top:1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    margin: 20px 0px;
+}
+.main1_img2{
+    height: 25vh;
+    width: 100%;
+    overflow: hidden;
+    z-index: -50;
+}
+.img4{
+    background-image: url(./img/m-blog-1.jpg);
+    background-size: 100% 100%;
+    height: 100% ;
+    width: 100%;
+    transition-duration: .7s;
+    z-index: -50;
+
+}
+.main1_img2:hover .img4{
+    transform: scale(1.3);
+    z-index: -1;
+
+}
+.title{
+    height: 5vh;
+    width: 70%;
+    background-color: #fff;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    z-index: 50;
+    transition-duration: 1s;
+}
+.img5{
+    background-image: url(./img/m-blog-2.jpg);
+    background-size: 100% 100%;
+    height: 100% ;
+    width: 100%;
+    transition-duration: .7s;
+    z-index: -50;
+
+}
+.main1_img2:hover .img5{
+    transform: scale(1.3);
+    z-index: -1;
+
+}
+.img6{
+    background-image: url(./img/m-blog-3.jpg);
+    background-size: 100% 100%;
+    height: 100% ;
+    width: 100%;
+    transition-duration: .7s;
+    z-index: -50;
+
+}
+.main1_img2:hover .img6{
+    transform: scale(1.3);
+    z-index: -1;
+
+}
+.img7{
+    background-image: url(./img/m-blog-4.jpg);
+    background-size: 100% 100%;
+    height: 100% ;
+    width: 100%;
+    transition-duration: .7s;
+    z-index: -50;
+
+}
+.main1_img2:hover .img7{
+    transform: scale(1.3);
+    z-index: -1;
+
+}
+.img8{
+    background-image: url(./img/m-blog-5.jpg);
+    background-size: 100% 100%;
+    height: 100% ;
+    width: 100%;
+    transition-duration: .7s;
+    z-index: -50;
+
+}
+.main1_img2:hover .img8{
+    transform: scale(1.3);
+    z-index: -1;
+
+}
+.para{
+    background-color: skyblue;
+    border-radius: 30px;
+    padding: .8rem .5rem ;
+}
